@@ -100,7 +100,7 @@ void readData(){
    char jsonStr[300];
    json.toCharArray(jsonStr,300);
 
-   sendMQTTMessage("agrinode", "34.87.25.24", "1883", "agrinode01",jsonStr);
+   sendMQTTMessage("agrinode", "34.87.xx.xx", "1883", "agrinode01",jsonStr);
    
    Serial.println();
 }
